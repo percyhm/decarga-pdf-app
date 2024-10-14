@@ -19,7 +19,8 @@ public class DecargarPDFController {
 //        vars.put("hotel", "42");
 //        vars.put("booking", "21");
 //        String result = restTemplate.getForObject("http://example.com/hotels/{hotel}/bookings/{booking}", String.class, vars);
-        String result = restTemplate.getForObject("https://documentos-royal.rimac.com/vida/vividaaddons/planesvidainversion/poliza/2024/08/21/83388d79-31c5-41b5-9541-f273889bfc24.pdf", String.class);
+        //String result = restTemplate.getForObject("https://documentos-royal.rimac.com/vida/vividaaddons/planesvidainversion/poliza/2024/08/21/83388d79-31c5-41b5-9541-f273889bfc24.pdf", String.class);
+        String result = "response";
         System.out.println(result);
         return result;
     }
