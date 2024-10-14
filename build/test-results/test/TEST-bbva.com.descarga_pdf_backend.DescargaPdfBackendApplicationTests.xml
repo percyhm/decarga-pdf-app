@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="bbva.com.descarga_pdf_backend.DescargaPdfBackendApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-14T19:44:41" hostname="LUISPC" time="1.076">
+<testsuite name="bbva.com.descarga_pdf_backend.DescargaPdfBackendApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-14T20:06:00" hostname="LUISPC" time="0.811">
   <properties/>
-  <testcase name="contextLoads()" classname="bbva.com.descarga_pdf_backend.DescargaPdfBackendApplicationTests" time="1.076"/>
-  <system-out><![CDATA[14:44:39.074 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [bbva.com.descarga_pdf_backend.DescargaPdfBackendApplicationTests]: DescargaPdfBackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-14:44:39.229 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration bbva.com.descarga_pdf_backend.DescargaPdfBackendApplication for test class bbva.com.descarga_pdf_backend.DescargaPdfBackendApplicationTests
+  <testcase name="contextLoads()" classname="bbva.com.descarga_pdf_backend.DescargaPdfBackendApplicationTests" time="0.811"/>
+  <system-out><![CDATA[15:05:58.257 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [bbva.com.descarga_pdf_backend.DescargaPdfBackendApplicationTests]: DescargaPdfBackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:05:58.366 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration bbva.com.descarga_pdf_backend.DescargaPdfBackendApplication for test class bbva.com.descarga_pdf_backend.DescargaPdfBackendApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,9 +14,9 @@
 
  :: Spring Boot ::                (v3.3.4)
 
-2024-10-14T14:44:39.795-05:00  INFO 6724 --- [descarga-pdf-backend] [    Test worker] b.c.d.DescargaPdfBackendApplicationTests : Starting DescargaPdfBackendApplicationTests using Java 17.0.12 with PID 6724 (started by Percy in D:\WorkspaceIDEA\ProyectosBanco\decarga-pdf-app)
-2024-10-14T14:44:39.795-05:00  INFO 6724 --- [descarga-pdf-backend] [    Test worker] b.c.d.DescargaPdfBackendApplicationTests : No active profile set, falling back to 1 default profile: "default"
-2024-10-14T14:44:41.390-05:00  INFO 6724 --- [descarga-pdf-backend] [    Test worker] b.c.d.DescargaPdfBackendApplicationTests : Started DescargaPdfBackendApplicationTests in 1.918 seconds (process running for 3.587)
+2024-10-14T15:05:58.822-05:00  INFO 26992 --- [descarga-pdf-backend] [    Test worker] b.c.d.DescargaPdfBackendApplicationTests : Starting DescargaPdfBackendApplicationTests using Java 17.0.12 with PID 26992 (started by Percy in D:\WorkspaceIDEA\ProyectosBanco\decarga-pdf-app)
+2024-10-14T15:05:58.838-05:00  INFO 26992 --- [descarga-pdf-backend] [    Test worker] b.c.d.DescargaPdfBackendApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-10-14T15:06:00.111-05:00  INFO 26992 --- [descarga-pdf-backend] [    Test worker] b.c.d.DescargaPdfBackendApplicationTests : Started DescargaPdfBackendApplicationTests in 1.557 seconds (process running for 2.741)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
