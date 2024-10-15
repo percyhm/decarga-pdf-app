@@ -41,10 +41,10 @@ public class DecargarPDFController {
             response = responseEntity.getBody();
         }catch (HttpClientErrorException e){
             LOGGER.error("Error", e.getStackTrace());
-            responseDTO.setCode(statusCode.toString());
-            responseDTO.setMessage("e.getStatusText()");
-            return new ResponseEntity<ResponseDTO>(responseDTO, statusCode);
-            //throw new Exception("said something");
+            //responseDTO.setCode(statusCode.toString());
+            //responseDTO.setMessage("e.getStatusText()");
+            //return new ResponseEntity<ResponseDTO>(responseDTO, statusCode);
+            throw new Exception(e);
         }catch (Exception e){
             LOGGER.error("Error", e.getCause());
             return new ResponseEntity<ResponseDTO>(responseDTO, statusCode);
