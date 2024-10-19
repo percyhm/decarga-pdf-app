@@ -1,4 +1,5 @@
 FROM ubuntu:latest AS build
+
 RUN apt-get update
 RUN apt-get install openjdk-17-jdk -y
 COPY . .
@@ -9,6 +10,6 @@ FROM openjdk:17-jdk-slim
 
 EXPOSE 8080
 
-COPY build/libs/*.jar app.jar
+COPY --from=build /build/libs/descarga-pdf-app-1.jar app.jar
 
 ENTRYPOINT ["java", "-jar", "app.jar"]
